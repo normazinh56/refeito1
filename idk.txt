@@ -1,0 +1,210 @@
+
+<!-- 1ª seção de cardápio -->
+<section class="cardapio">
+
+    <div class="card" onclick="window.open('https://wa.me/5555123456789?text=Esse%20%C3%A9%20um%20numero%20aleatorio%20%0An%C3%A3o%20sei%20se%20funciona%20mesmo%20%0A', '_blank')">
+        <img src="img/queji.jpg" alt="Pizza de queijo">
+        <h3>Pizza de Queijo</h3>
+        <del class="preco">R$ 9,99</del>
+        <p class="preco">R$ 5,99</p>
+        <p>essa</p>
+    </div>
+
+    <div class="card" onclick="window.open('https://google.com', '_blank')">
+        <img src="img/queji.jpg" alt="Pizza de queijo">
+        <h3>Pizza de Queijo</h3>
+        <p class="preco">R$ 9,99</p>
+    </div>
+
+    <div class="card">
+        <img src="img/mussarela.png" alt="Pizza de mussarela">
+        <h3>Pizza de Mussarela</h3>
+        <p class="preco">R$ 9,99</p>
+    </div>
+
+    <div class="card">
+        <img src="img/pizza.png" alt="Pizza" width="150">
+        <h3>Pizza Especial</h3>
+        <p class="preco">R$ 9,99</p>
+    </div>
+
+ 
+    <div class="card">
+        <img src="https://picsum.photos/200/300" alt="Pizza" width="150">
+        <h3>Pizza</h3>
+        <p class="preco">R$ 5,99</p>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200/300" alt="Pizza" width="150">
+        <h3>Pizza</h3>
+        <p class="preco">R$ 5,99</p>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200/300" alt="Pizza de abacaxi" width="150">
+        <h3>Pizza de Abacaxi</h3>
+        <p class="preco">R$ 5,99</p>
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- 2ª seção de cardápio -->
+<section class="cardapio">
+
+    <div class="card">
+        <img src="https://picsum.photos/200/300" alt="Pizza" width="150">
+        <h3>Pizza</h3>
+        <p class="preco">R$ 5,99</p>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200/300" alt="Pizza" width="150">
+        <h3>Pizza</h3>
+        <p class="preco">R$ 5,99</p>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200/300" alt="Pizza" width="150">
+        <h3>Pizza</h3>
+        <p class="preco">R$ 5,99</p>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200/300" alt="Pizza" width="150">
+        <h3>Pizza</h3>
+        <p class="preco">R$ 5,99</p>
+    </div>
+
+    <div class="card">
+        <img src="https://picsum.photos/200/300" alt="Pizza" width="150">
+        <h3>Pizza</h3>
+        <p class="preco">R$ 5,99</p>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+/* 
+grid-auto-row: 200px
+cada linha vai ter 200px
+
+
+
+grid-area: header;
+
+
+grid-template-areas: 
+'header header'
+'aside article'
+'section section'
+'footer footer';
+
+grid-template-areas: 
+'paginacao other '
+'history history'
+;
+
+
+.paginacao li{
+list-style-type: none;
+}
+.paginacao li h3{
+margin-bottom: 15px;
+
+}
+
+.paginacao{
+  margin-left: 10px;
+
+}
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+/*
+meche no tamanho de cada elemento
+grid-template-columns: 200px 500px 300px;*/
+
+/*meche na altura das linhas mas meche nas linhas de 
+cada coluna
+grid-template-rows
+*/
+
+/*
+a fração do espaço da pagina
+grid-template-columns: 1fr 2fr;
+grid-template-columns: 1fr 2fr 3fr 6fr;
+
+
+
+*/
+/*
+
+background-color: red;
+pergunta pro gpt dps qual a diferença do justify-content e o do align-items align-content
+place-items seria os 2 justify e align content
+*/
+/*
+a mesma coisa mas é a forma mais otimizada
+3 seria as colunas e o 200px os pixels que voce quer
+
+grid-template-columns:repeat(3, 200px);
+outras formas de usar o repeat
+
+
+aqui é o fr + os 200px
+grid-template-columns:repeat(3, 1fr) 200px;
+
+grid-template-columns:repeat(3, 5fr) repeat(2, 1fr);
+
+
+*/
+
+/*
+aqui é o minimo que o elemento pode ficar de pixels(280px) e o 
+
+maximo de px que ele vai ter(500)
+
+grid-template-columns: minmax(280px, 500px) 
+
+aqui vai ser 5 colunas wde minimo 280 px e o maximo 500 
+
+grid-template-columns: repeat (5, minmax(280px, 500px));
+
+ 
+aqui vai ser 5 colunas wde minimo 280 px e o maximo 500 e mais uma de 200px
+
+grid-template-columns: repeat (5, minmax(280px, 500px)) 200px;
+grid-template-columns: repeat (5, minmax(280px, 1fr))
+*/
+
+/* é o espaçamento de coluna e linha 
+gap: 20px
+é o espaçamento de linha
+row-gap
+espaçamento de coluna
+coloum-gap
+
+*/

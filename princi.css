@@ -1,0 +1,394 @@
+*{
+margin-top: 0px;
+
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+:root{
+--vinho: #7A1F2B;
+/* letra cursiva*/
+--vibes:'Great Vibes', cursive;
+}
+
+
+body{
+      box-sizing: border-box;
+  /*font-family: "Open Sans", sans-serif;*/
+position: relative;
+background: #bdbdbd;
+   margin: 0;
+    padding: 0;
+ font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+            color: #333;
+
+}
+
+
+h1{
+margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+/*banner princi */
+
+
+.hero{
+  position: relative ;
+  width: 100%;
+  max-width: 850px;
+  overflow: hidden;
+  
+}
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 2.2fr 2.8fr 2.9fr;
+
+}
+
+
+
+
+
+
+.info{
+  color: #fff;
+  padding: 30px 20px;
+  display: flex;
+height: 516px;
+ width: 95%;
+background-color: rgb(70, 69, 69);
+
+}
+
+.itemdentu{
+    margin-left: -5px;
+/*160 */
+}
+
+
+.info1{
+background: #4a4a4a;
+  color: #fff;
+  padding: 30px 20px;
+  display: flex;
+  width: 94%;
+height: 516px;
+
+justify-content: center;
+
+
+}
+
+
+/* cabo aqui*/
+
+
+
+
+
+/*parte das caixas de reconhe e tals */
+.certifi{
+background-color: rgb(233, 228, 228);
+height: auto;
+width: 100%;
+
+margin-top: -10px;
+
+margin-bottom: 80px;
+}
+
+
+.textao{
+  
+  justify-items: center;
+
+}
+.textao h1{
+    margin-bottom: 40px;
+padding: 40px 0px 0px 0px;
+}
+
+.textao p{
+font-size: 20px;
+margin-bottom: 20px;
+margin-top: 0px;  
+}
+
+
+.caixasn1{
+  
+  display: flex;
+  justify-content: center;
+}
+/* por enquanto esta sem uso "caixasn2 porque nao tem nada nela, mas ta pronta pra usaw, é a mesma coisa que a n1 mas é pra separa por divs msm*/
+.caixasn2{
+  
+  display: flex;
+  justify-content: center;
+
+}
+
+.caixas p{
+color: grey ;
+}
+
+
+.caixas{
+  background-color: rgb(253, 251, 251);
+height: 400px;
+width: 400px;
+margin-left: 50px;
+margin-top: 60px;  
+
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+border: 2px solid white;
+border-radius: 10px;
+}
+
+.caixas, h4{
+
+color: black
+}
+
+
+/*cabo aqui*/
+
+
+/*cardapio especial/destaques */
+
+.mob{
+display: none;
+}
+
+.tittle{
+font-size: 60px;
+color: #7A1F2B;
+font-family: var(--vibes);
+
+
+}
+.cardespe{
+justify-items: center;
+background-color: #ffffff;
+}
+
+.saiba{
+background-color: #8B2C3A;
+border: #8B2C3A 2px solid;
+border-radius: 6px;
+padding: 6px;
+color: white;
+margin-bottom: 13px;
+}
+
+.btras1{
+width: 20%;
+
+border-radius: 50px;
+}
+
+.caixotes1{
+  display: flex;
+  border: 2px solid red;
+flex-direction: row;
+width: 100%;
+margin-left: 0px;
+margin-top: 20px;
+}
+
+.tep3{
+margin-left: 40px;
+margin-bottom: 10px;
+}
+
+.tep1{
+margin-left: 40px;
+margin-top: 7px;
+}
+/*cabo aqui */
+
+
+/*media quieres */
+/* Smartphones (630px para baixo) */
+@media only screen and (max-width: 630px) {
+.mob{
+display: block;
+justify-items: center;
+}
+
+
+
+
+
+
+.grid{
+grid-template-columns: 1fr;
+}
+
+
+
+  
+   .zip {
+  position: fixed;
+  right: 50px;
+    bottom: calc(20px + env(safe-area-inset-bottom));
+  transform: translateY(-10px); /* sobe visualmente */
+  z-index: 9999;
+}
+  
+
+.caixasn1, .caixasn2{
+display: flex;
+flex-direction: column;}
+
+
+
+.caixas{
+height: auto;
+margin-left: 0px;
+width: 100%;}
+
+
+.info, .info1{
+display: none;}
+
+
+.piz {
+  width: 426px;
+        height: 400px;
+  object-fit: cover;
+  display: block;}
+
+
+.hero-buttons{
+  position: absolute;
+  left: 10px;
+  bottom: 90px;
+  
+  
+}
+
+footer{
+display: flex;
+flex-direction: column;}
+
+.caixas{
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+width: auto;}
+
+header{
+ width: 426px !important;
+height: auto;
+}
+
+
+header .titulo{
+margin-left: 0px;
+font-size: 20px;
+}
+header .casinhas{
+  display: none;
+
+}
+
+
+header .logo{
+width: 50px;
+
+}
+
+.certifi{
+ width: 420px;
+
+}
+#botao3{
+left: 90px;
+
+}
+.btras1{
+width: 320px;
+
+}
+.caixotes1{
+display: flex;
+flex-direction: column;
+}
+
+.botao3{
+
+  display: block;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1184px){
+.info1 h3{
+
+font-size: 18px;
+
+
+}
+.info1 a{
+  
+  font-size: 16px;
+
+}
+
+
+}
+
+
+@media only screen and (max-width: 1353px){
+
+.grid{
+grid-template-columns: 1fr;
+}
+
+.hero{
+position: relative;
+}
+
+
+.hero-buttons{
+position: absolute;
+
+
+}
+.info, .info1{
+  display: none;
+}
+.piz{
+ width: 100%;
+        height: 400px;
+  object-fit: cover;
+ display: block;}
+}
+
+
+

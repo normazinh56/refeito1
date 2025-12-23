@@ -1,0 +1,134 @@
+*{
+margin-top: 0px;
+
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+:root{
+--vinho: #7A1F2B;
+/* letra cursiva*/
+--vibes:'Great Vibes', cursive;
+}
+
+
+body{
+      box-sizing: border-box;
+  /*font-family: "Open Sans", sans-serif;*/
+position: relative;
+background: #bdbdbd;
+   margin: 0;
+    padding: 0;
+ font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+            color: #333;
+
+}
+
+
+h1{
+margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+/* cardapio */
+.cardapio {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card {
+    background: white;
+    color: black;
+    width: 240px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.pizzada{
+    width: 180px;
+    border-radius: 8px;
+}
+.preco{
+color: #ff0e0e;
+}
+
+
+
+/* whats button*/
+.zip{
+ position: fixed;
+  z-index: 9999;
+  right: 60px;
+  bottom: 50px;
+  transform: translateZ(0);
+  will-change: transform;
+
+}
+.zip img:hover{
+border: #00ff4c solid 5px;
+border-radius: 10px;
+}
+
+.zip a{
+color: #00ff4c;
+text-decoration: none;
+}
+
+.whats-wrapper {
+  position: relative;
+  
+}
+.whats-wrapper p{
+font-size: 16px;  
+}
+
+.wha{
+    bottom: 50px;
+    width: 60px;
+    left: 20px;
+    position: absolute;
+}
+
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+.card{
+width: 33%;
+display: flex;
+flex-direction: column;
+}
+
+.pizzada{
+width: 120px;
+
+}
+
+.cardapio{
+display: flex;
+flex-direction: row;
+}
+
+}
