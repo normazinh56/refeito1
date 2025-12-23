@@ -121,7 +121,7 @@ font-size: 20px;
 background-color: rgb(172, 171, 171);
 color: black;
 height: auto;
-margin-top: 1529px;
+margin-top: 1200px;
 display: grid;
 position: relative;
 
@@ -229,6 +229,7 @@ flex-direction: row;
 display: flex;
 flex-direction: column;
 }
+
 
 
 
