@@ -227,7 +227,7 @@ margin-top: 7px;
 
 /*media quieres */
 /* Smartphones (630px para baixo) */
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 590px) {
 .mob{
 display: block;
 justify-items: center;
@@ -392,6 +392,7 @@ position: absolute;
   object-fit: cover;
  display: block;}
 }
+
 
 
 
