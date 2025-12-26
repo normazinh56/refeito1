@@ -234,7 +234,9 @@ justify-items: center;
 
 
 
-
+body{
+background-color: white;
+}
 
 
 .grid{
